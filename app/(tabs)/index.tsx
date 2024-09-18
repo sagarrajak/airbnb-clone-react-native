@@ -9,6 +9,7 @@ const Index = () => {
     <View style={{flex: 1}}>
       <Stack.Screen 
         options={{
+          headerStyle: {},
           header: () => <ExploreHeader/>
         }}
       />
